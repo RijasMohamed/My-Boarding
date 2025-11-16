@@ -1,0 +1,8 @@
+# Minimal Jekyll config to avoid processing frontend node_modules
+exclude:
+  - "boarding-frontend/node_modules"
+  - "node_modules"
+  - "boarding-frontend/node_modules/**"
+
+# Optional: don't show future-dated posts in builds
+future: false

@@ -1,0 +1,7 @@
+# Ignore node_modules so Jekyll does not try to process them
+node_modules/
+boarding-frontend/node_modules/
+boarding-frontend/node_modules/**
+
+# Ignore common build artifacts
+_site/
